@@ -16,8 +16,12 @@ From the repository:
 * I wanted to reproduce some of the ImageNet-1k results reported by the `big_vision` authors.
 * `big_vision` not only reports scores for ImageNet-1k validation set but also reports
 scores for ImageNet-V2 and ImageNet-Real.
-* I wanted to run the entire training using Cloud TPUs and the same time I wanted to 
-improve by JAX skills.
+* I wanted to run the entire training using Cloud TPUs and at the same time I wanted to 
+improve my JAX skills.
+* I wanted to improve my chops in large-scale pre-training. Large-scale pretraining is a goldmine of
+deep learning that continues to benefit downstream applications. Programs like [TRC](https://sites.research.google/trc) make it possible for
+the community to learn the nitty-gritty of large-scale pre-training by providing
+TPU support.
 * For the sheer joy of training models to SoTA.
 
 This repository will also contain the trained checkpoints and the training logs. Additionally, 
@@ -30,3 +34,7 @@ across three benchmarks: ImageNet-1k validation set, ImageNetV2, ImageNet-Real.
 
 Even though the `big_vision` repository provides instructions for setting things up I found them a bit incomplete.
 Hence, I developed another one. Find it here - [`setup.md`](https://github.com/sayakpaul/big_vision_experiments/blob/main/setup.md).
+
+## Acknowledgements
+
+TBA
