@@ -35,6 +35,8 @@ Here's one such plot I generated from ViT S/16 checkpoints (that get to 76.23% t
 </div>
 
 <sup>Training was performed on a TPU v3-8 VM that took 7 hours 22 minutes to complete.</sup>
+
+The performance of this model is also quite inline with what's reported in [1].
  
 ## Checkpoints and training logs
 
@@ -45,6 +47,10 @@ Here's one such plot I generated from ViT S/16 checkpoints (that get to 76.23% t
 
 Even though the `big_vision` repository provides instructions for setting things up I found them a bit incomplete.
 Hence, I developed another one. Find it here - [`setup.md`](https://github.com/sayakpaul/big_vision_experiments/blob/main/setup.md).
+
+## References
+
+[1] Better plain ViT baselines for ImageNet-1k: https://arxiv.org/abs/2205.01580
 
 ## Acknowledgements
 
