@@ -30,7 +30,9 @@ across three benchmarks: ImageNet-1k validation set, ImageNetV2, ImageNet-Real.
 
 Here's one such plot I generated from ViT S/16 checkpoints (that get to 76.23% top-1 accuracy on ImageNet-1k validation set within 90 epochs of training):
 
-![](./assets/imagenet1k_s16.png)
+<div align="center">
+<img src="./assets/imagenet1k_s16.png" width=500/>
+</div>
 
 <sup>Training was performed on a TPU v3-8 VM that took 7 hours 22 minutes to complete.</sup>
  
