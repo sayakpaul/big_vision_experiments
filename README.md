@@ -25,10 +25,19 @@ TPU support.
 * For the sheer joy of training models to SoTA.
 
 This repository will also contain the trained checkpoints and the training logs. Additionally, 
-this Colab Notebook () takes the raw training logs and generates a plot for reporting accuracies
+this Colab Notebook ([`notebooks/analyze-metrics.ipynb`](https://colab.research.google.com/github/sayakpaul/big_vision_experiments/blob/main/notebooks/analyze-metrics.ipynb)) takes the raw training logs and generates a plot for reporting accuracies
 across three benchmarks: ImageNet-1k validation set, ImageNetV2, ImageNet-Real.
 
-[TBA PLOT]
+Here's one such plot I generated from ViT S/16 checkpoints (that get to 76.23% top-1 accuracy on ImageNet-1k validation set within 90 epochs of training):
+
+![](./assets/imagenet1k_s16.png)
+
+<sup>Training was performed on a TPU v3-8 VM that took 7 hours 22 minutes to complete.</sup>
+ 
+## Checkpoints and training logs
+
+* [`vit_s16_imagenet_1k`](https://github.com/sayakpaul/big_vision_experiments/releases/tag/v0.1.0)
+
 
 ## Setup
 
@@ -37,4 +46,5 @@ Hence, I developed another one. Find it here - [`setup.md`](https://github.com/s
 
 ## Acknowledgements
 
-TBA
+* [TRC (TPU Research Cloud)](https://sites.research.google/trc) for providing TPU access.
+* [ML-GDE program](https://developers.google.com/programs/experts/) for providing GCP credits.
