@@ -92,3 +92,7 @@ gcloud alpha compute tpus tpu-vm ssh $NAME \
     --zone=$ZONE --worker=all \
     --command "TFDS_DATA_DIR=gs://imagenet-1k/tensorflow_datasets bash big_vision/run_tpu.sh big_vision.train --config big_vision/configs/vit_s16_i1k.py  --workdir gs://$GS_BUCKET_NAME/big_vision/workdir/`date '+%m-%d_%H%M'`"
 ```
+
+## References
+
+https://github.com/google-research/big_vision
