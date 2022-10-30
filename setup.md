@@ -47,7 +47,7 @@ builder = tfds.builder("imagenet2012", data_dir=data_dir)
 builder.download_and_prepare()
 ```
 
-**Notice** that my GCS buxket in `data_dir` is different from what's specified in `GS_BUCKET_NAME`. This is intentional as I find it useful to segregate data files from experimental files.
+**Notice** that my GCS bucket in `data_dir` is different from what's specified in `GS_BUCKET_NAME`. This is intentional as I find it useful to segregate data files from experimental files.
 
 ## Get the `imagenet2012_real` data prepared
 
